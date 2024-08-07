@@ -1,2 +1,1 @@
-# scholarn.github.io
-## Welcome to Scholarn
+# Welcome to [Scholarn](scholarn.github.io)
