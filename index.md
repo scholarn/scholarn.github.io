@@ -1,1 +1,0 @@
-# Welcome to Scholarn. This is an online platform for open education.
