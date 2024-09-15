@@ -27,10 +27,35 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
+# Author Info
+author:
+  name: "Md Azaharuddin"
+
+# Deployment
+permalink: pretty # Makes URLs look cleaner
+paginate: 10 # Number of posts per page
+
+# SEO and Social
+social:
+  twitter: 
+  github: 
+  linkedin: 
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-mentions
+  - jekyll-assets
+
+# Markdown and Code Highlighting
+markdown: kramdown
+highlighter: rouge
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
