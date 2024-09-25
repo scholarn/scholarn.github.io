@@ -5,28 +5,16 @@ baseurl: ""                                 # Leave blank for GitHub Pages
 url: "https://scholarn.github.io"       # Your GitHub Pages URL
 
 # Author information
-author:
-  Md Azaharuddin
+author: "Md Azaharuddin"
 
 # Jekyll theme
 theme: minima                               # Use the Minima theme
-
-# Markdown and syntax highlighting
-markdown: kramdown
-highlighter: rouge                          # Syntax highlighting for code
 
 # Plugins (GitHub Pages compatible)
 plugins:
   - jekyll-feed                            # Generates an RSS feed
   - jekyll-seo-tag                         # Adds SEO tags to the site
-
+  - jekyll-sitemap
 # Pagination settings (optional)
 paginate: 5                                 # Number of posts per page
-
-# Social media links (optional)
-twitter_username: 
-github_username: 
-
-# GitHub Pages settings
-github:
-  is_project_page: false                    # Set to true if this is a project page
+paginate_path: "/page:num/"     # Path for paginated pages
