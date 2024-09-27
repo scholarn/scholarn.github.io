@@ -1,14 +1,14 @@
 # Basic site settings
-title: "Scholarn"                    # Title of your blog
-description: "An online platform for education."  # Description for meta tags
-baseurl: ""                                 # Leave blank for GitHub Pages
-url: "https://scholarn.github.io"       # Your GitHub Pages URL
-
+title: "Scholarn"
+description: "An online Educational Platform."
+baseurl: ""
+url: "https://scholarn.github.io"
+permalink: pretty
 # Author information
 author: "Md Azaharuddin"
 
 # Jekyll theme
-theme: minima                               # Use the Minima theme
+theme: minima
 
 # Plugins (GitHub Pages compatible)
 plugins:
