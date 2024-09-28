@@ -9,6 +9,12 @@ author: "Md Azaharuddin"
 
 # Jekyll theme
 theme: minima
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: default
 
 # Plugins (GitHub Pages compatible)
 plugins:
