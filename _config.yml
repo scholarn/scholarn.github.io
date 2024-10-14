@@ -12,7 +12,7 @@ timezone: "Asia/Kolkata"
 
 # If you clone the Minima repo and build locally, use this setting.
 
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
