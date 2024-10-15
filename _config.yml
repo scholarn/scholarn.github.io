@@ -1,12 +1,13 @@
-baseurl: ""
-url: "scholarn.github.io"
 title: Scholarn
 subtitle: "Learn Anywhere"
+description: "Best Educationl Website."
+
+baseurl: ""
+url: "scholarn.github.io"
+
 author:
   name: Md Azaharuddin
-  email: your-email@domain.com
 
-description: "Best Educationl Website."
 lang: "en"
 timezone: "Asia/Kolkata"
 permalink: pretty
@@ -18,9 +19,9 @@ minimal_mistakes_skin: "dark"
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
+      layout: "single"
   - scope:
       path: ""
       types: "pages"
