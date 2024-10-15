@@ -1,6 +1,7 @@
 baseurl: ""
 url: "scholarn.github.io"
 title: Scholarn
+subtitle: "Learn Anywhere"
 author:
   name: Md Azaharuddin
   email: your-email@domain.com
@@ -8,19 +9,30 @@ author:
 description: "Best Educationl Website."
 lang: "en"
 timezone: "Asia/Kolkata"
+permalink: pretty
 
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 
-header_pages:
-  - about.md
 # Defaults
 defaults:
   - scope:
       path: ""
-      types: "page"
+      type: posts
+    values:
+      layout: single
+  - scope:
+      path: ""
+      types: "pages"
     values:
       layout: "single"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
