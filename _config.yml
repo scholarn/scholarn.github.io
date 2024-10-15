@@ -12,13 +12,8 @@ timezone: "Asia/Kolkata"
 theme: minimal-mistakes-jekyll
 
 header_pages:
-
+  - about.md
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-admin
-
-jekyll_admin:
-  username: admin
-  password: secret
