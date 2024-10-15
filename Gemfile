@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 
 # Minimal Mistakes theme
-gem "minimal-mistakes-jekyll", "~> 4.26" # Use the latest version available
+gem "minimal-mistakes-jekyll"#, "~> 4.26" # Use the latest version available
 
 # Required plugins
 gem "jekyll-feed"      # Generates an Atom feed for your site
@@ -17,9 +17,3 @@ gem "jekyll-archives"   # Archives plugin for listing posts by year/month
 
 # Optional: Additional plugins for LMS features (adjust as needed)
 gem "jekyll-scholar"    # For citation support if you're using academic references
-gem "jekyll-admin"       # Adds a web-based interface for managing posts and pages
-
-# Development only
-group :development do
-  gem "webrick"          # Web server for local development
-end
