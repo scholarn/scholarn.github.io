@@ -13,6 +13,13 @@ theme: minimal-mistakes-jekyll
 
 header_pages:
   - about.md
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      types: "page"
+    values:
+      layout: "single"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
