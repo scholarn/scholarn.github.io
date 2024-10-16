@@ -16,7 +16,4 @@ gem "jekyll-sitemap"    # Generates a sitemap for your site
 gem "jekyll-paginate"   # Pagination support for collections and posts
 gem "jekyll-archives"   # Archives plugin for listing posts by year/month
 gem "gist"
-
-# Optional: Additional plugins for LMS features (adjust as needed)
-gem "jekyll-scholar"    # For citation support if you're using academic references
 end
