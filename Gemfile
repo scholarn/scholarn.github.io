@@ -14,6 +14,4 @@ gem "jekyll-feed"      # Generates an Atom feed for your site
 gem "jekyll-seo-tag"   # Adds SEO tags for better search engine optimization
 gem "jekyll-sitemap"    # Generates a sitemap for your site
 gem "jekyll-paginate"   # Pagination support for collections and posts
-gem "jekyll-archives"   # Archives plugin for listing posts by year/month
-gem "gist"
 end

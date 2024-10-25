@@ -6,7 +6,7 @@ baseurl: ""
 url: "scholarn.github.io"
 
 author:
-  name: Md Azaharuddin
+  name: "Md Azaharuddin"
 
 lang: "en"
 timezone: "Asia/Kolkata"
@@ -33,7 +33,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
