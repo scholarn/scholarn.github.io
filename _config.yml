@@ -10,7 +10,6 @@ author:
 
 lang: "en"
 timezone: "Asia/Kolkata"
-permalink: pretty
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
@@ -27,6 +26,10 @@ defaults:
       types: "pages"
     values:
       layout: "single"
+
+permalink: pretty
+header_pages:
+  - index.html
 
 plugins:
   - jekyll-feed
