@@ -29,7 +29,7 @@ defaults:
 
 permalink: pretty
 header_pages:
-  - index.html
+  - about.md
 
 plugins:
   - jekyll-feed
